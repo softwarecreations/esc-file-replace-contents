@@ -8,7 +8,7 @@ Basically a SSD/flash friendly writeFileSync with some default colored console.l
 
 ## Example
 ```JavaScript
-import fileReplaceContents from 'esc-file-replace-substring';
+import fileReplaceContents from 'esc-file-replace-contents';
 
 // see test.mjs for boilerplate
 
