@@ -1,0 +1,26 @@
+{
+  "name": "esc-file-replace-contents",
+  "version": "0.1.0",
+  "description": "Replace file contents if file does not already contain the same content.",
+  "main": "main.mjs",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarecreations/esc-file-replace-contents.git"
+  },
+  "keywords": [
+    "minimal-dependencies",
+    "simple"
+  ],
+  "author": "softwarecreations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softwarecreations/esc-file-replace-contents/issues"
+  },
+  "homepage": "https://github.com/softwarecreations/esc-file-replace-contents#readme"
+}
