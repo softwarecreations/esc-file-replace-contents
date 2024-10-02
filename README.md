@@ -1,31 +1,44 @@
 # esc-file-replace-contents
 Replace file contents if file does not already contain the same content.
 
+Basically a SSD/flash friendly writeFileSync with some default colored console.log's that you can easily over-ride or eliminate.
+
+## Installation
+`npm install esc-file-replace-contents`
+
+## Example
+```JavaScript
+import fileReplaceContents from 'esc-file-replace-substring';
+
+// see test.mjs for boilerplate
+
+const show = () => console.log('---\n' + fs.readFileSync(filePath) + '---');
+
+fileReplaceContents(filePath, 'very\n');
+
+show();
+
+fileReplaceContents(filePath, 'nice module\n');
+
+show();
+```
+
+
 ## Project goals
-* No dependencies
+* No external dependencies
 * No nonsense
 * Reliable, no radical changes will ever happen.
 * Small, simple, easy to audit, yourself
 
 If I have ideas for something different, I'll make a new package rather than make breaking changes.
 
-## Inspired by
-
-
-## Installation
-
-1. `npm install esc-file-replace-contents`
-
-
-## Use
-```JavaScript
-import foo from 'esc-file-replace-contents';
-
-```
+## See also
+* esc-file-replace-substring
+* esc-file-replace-substring-between-comments
+* esc-read-file-without-comments
+* esc-get-data-from-json-file
 
 ## Notes
-
-
 Have fun!
 
 ### Say thanks

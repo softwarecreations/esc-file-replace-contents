@@ -4,8 +4,8 @@
   "description": "Replace file contents if file does not already contain the same content.",
   "main": "main.mjs",
   "dependencies": {
+    "esc-colors": "^0.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node main.mjs"
   },
@@ -14,8 +14,16 @@
     "url": "git+https://github.com/softwarecreations/esc-file-replace-contents.git"
   },
   "keywords": [
-    "minimal-dependencies",
-    "simple"
+    "no external dependencies",
+    "SSD",
+    "flash",
+    "replace file contents",
+    "replace file",
+    "replace text in file",
+    "replace file text",
+    "simple",
+    "shell script",
+    "cli"
   ],
   "author": "softwarecreations",
   "license": "MIT",
