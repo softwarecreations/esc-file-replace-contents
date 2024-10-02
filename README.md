@@ -22,7 +22,7 @@ fileReplaceContents(filePath, 'nice module\n');
 
 show();
 ```
-
+![image](https://github.com/user-attachments/assets/fad8a1d6-a109-4617-ad61-fd99acd16eed)
 
 ## Project goals
 * No external dependencies
