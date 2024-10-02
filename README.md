@@ -24,6 +24,12 @@ show();
 ```
 ![image](https://github.com/user-attachments/assets/fad8a1d6-a109-4617-ad61-fd99acd16eed)
 
+## console.log override-able
+Pass in your own logging functions for
+* Created
+* Updated
+* No change (disabled by default)
+
 ## Project goals
 * No external dependencies
 * No nonsense
