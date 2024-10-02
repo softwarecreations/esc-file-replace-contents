@@ -1,6 +1,6 @@
 {
   "name": "esc-file-replace-contents",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Replace file contents if file does not already contain the same content.",
   "main": "main.mjs",
   "dependencies": {

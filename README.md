@@ -39,10 +39,10 @@ Pass in your own logging functions for
 If I have ideas for something different, I'll make a new package rather than make breaking changes.
 
 ## See also
-* esc-file-replace-substring
-* esc-file-replace-substring-between-comments
-* esc-read-file-without-comments
-* esc-get-data-from-json-file
+* https://www.npmjs.com/package/esc-file-replace-substring
+* https://www.npmjs.com/package/esc-file-replace-substring-between-comments
+* https://www.npmjs.com/package/esc-read-file-without-comments
+* https://www.npmjs.com/package/esc-get-data-from-json-file
 
 ## Notes
 Have fun!
