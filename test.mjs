@@ -1,7 +1,7 @@
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-// import fileReplaceContents from 'esc-file-replace-substring';
+// import fileReplaceContents from 'esc-file-replace-contents';
 import fileReplaceContents from './main.mjs';
 
 const filePath = path.join(os.tmpdir(), 'test-file.txt');
