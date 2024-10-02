@@ -5,9 +5,9 @@ import fs from 'fs';
 export const fileReplaceContents = (
   path,
   contents,
-  existsLogF    = s => console.log(colors.magenta(s)),
-  createLogF    = s => console.log(colors.blue(s)),
-  unchangedLogF = s => console.log(colors.yellow(s)),
+  existsLogF      = s => console.log(colors.magenta(s)),
+  createLogF      = s => console.log(colors.blue(s)),
+  unchangedLogF,//= s => console.log(colors.yellow(s)),
 ) => {
 	const exists = fs.existsSync(path);
 	const oldBuf = exists ? fs.readFileSync(path).toString() : '';
