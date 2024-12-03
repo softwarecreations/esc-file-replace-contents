@@ -11,7 +11,7 @@ export const fileReplaceContents = (
 ) => {
 	const exists = fs.existsSync(path);
 	const oldBuf = exists ? fs.readFileSync(path).toString() : '';
-	if (exists && oldBuf===contents || oldBuf.replace(/# updated[^\n]+/,'')===contents.replace(/# updated[^\n]+/,'')) {
+	if (exists && oldBuf===contents || oldBuf.replace(/# updated[^\n]+/g,'')===contents.replace(/# updated[^\n]+/g,'')) {
 		if (unchangedLogF) unchangedLogF(`No change to ${path}`);
 		return false;
 	}
